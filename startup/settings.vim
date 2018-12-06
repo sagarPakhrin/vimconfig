@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 set t_Co=256
 
-=======
->>>>>>> ba0ad2128f8defe03fa01f29a1bbebe85323e2d0
 "to set number 
 	set number
 	set cindent
