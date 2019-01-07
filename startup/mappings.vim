@@ -15,6 +15,7 @@
 	vno <left> <Nop> 
 	vno <right> <Nop> 
 	vno <up> <Nop>
+	"vnoremap <Leader>s : sort<CR>
 
 
 "mapping <c-s> to save
@@ -46,4 +47,3 @@
 	nnoremap nt :NERDTree<cr>
 
 	inoremap <leader>w <esc>:w<cr>i
-
