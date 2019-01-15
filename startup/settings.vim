@@ -15,6 +15,8 @@ set t_Co=256
 	set textwidth=100
 	set colorcolumn=+1
 
+"Setting color scheme for vim
+	colorscheme skyhawk
 
 	set nobackup
 	set nowritebackup

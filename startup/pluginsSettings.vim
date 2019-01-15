@@ -17,6 +17,7 @@ let g:pymode_syntax = 1
 let g:pymode_syntax_builtin_objs = 0
 let g:pymode_syntax_builtin_funcs = 0
 let g:pymode_breakpoint = 0
+let g:pymode_folding = 1
 "map <Leader>v Oimport ipdb; ipdb.set_trace() # BREAKPOINT<C-c>
 
 set completeopt=longest,menuone

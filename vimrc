@@ -16,6 +16,8 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'kien/ctrlp.vim'
 Plug 'klen/python-mode'
 Plug 'nathanaelkane/vim-indent-guides'
+Plug 'kmszk/skyhawk'
+Plug 'tomtom/tcomment_vim'
 
 call plug#end()
 
