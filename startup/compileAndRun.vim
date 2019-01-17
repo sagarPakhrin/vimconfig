@@ -14,7 +14,7 @@ func! CompileRunGcc()
 				elseif &filetype == 'sh'
 								exec "!time bash %"
 				elseif &filetype == 'python'
-								exec "!time python2.7 %"
+								exec "!time python3 %"
 				elseif &filetype == 'html'
 								exec "!firefox % &"
 				elseif &filetype == 'go'
