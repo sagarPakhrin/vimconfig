@@ -18,6 +18,7 @@ Plug 'klen/python-mode'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'kmszk/skyhawk'
 Plug 'tomtom/tcomment_vim'
+Plug 'tmhedberg/matchit'
 
 call plug#end()
 
