@@ -47,3 +47,7 @@
 	nnoremap nt :NERDTree<cr>
 
 	inoremap <leader>w <esc>:w<cr>i
+
+
+	map ,p :set paste<cr>
+	map ,pp :set nopaste<cr>

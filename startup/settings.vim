@@ -21,3 +21,6 @@ set t_Co=256
 	set nobackup
 	set nowritebackup
 	set noswapfile
+
+	set wrap linebreak nolist
+
