@@ -24,3 +24,9 @@ set t_Co=256
 
 	set wrap linebreak nolist
 
+"To copy from one file to other in vim"
+	vnoremap <C-c> "+y
+	map <C-c> "+P
+
+"To capitalize the current word"
+	map \~ vaw~
