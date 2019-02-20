@@ -7,6 +7,21 @@ set wildignore+=*_build/*
 set wildignore+=*/coverage/*
 
 
+"Setngs for simplyfold
+let g:SimpylFold_docstring_preview=1
+
+" for YCM
+let g:ycm_autoclose_preview_window_after_completion=1
+map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+"
+"
+"
+"For color scheme
+call togglebg#map("<F4>")
+
+"netrtree ignore
+let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
+
 "settings for python-mode
 map <leader>g :call RopeGotoDefination()<CR>
 let g:pymode_python = 'python3'
