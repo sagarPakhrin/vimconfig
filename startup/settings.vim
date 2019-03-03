@@ -17,23 +17,23 @@ set clipboard=unnamed
 	set colorcolumn=+1
 
 "Indentation for python
-au BufNewFile,BufRead *.py
-    \ set tabstop=4
-    \ set softtabstop=4
-    \ set shiftwidth=4
-    \ set textwidth=79
-    \ set expandtab
-    \ set autoindent
-    \ set fileformat=unix
+" au BufNewFile,BufRead *.py
+    set tabstop=4
+    set softtabstop=4
+    set shiftwidth=4
+    set textwidth=79
+    set expandtab
+    set autoindent
+    set fileformat=unix
 
 "Indentation for js hml and other files
 au BufNewFile,BufRead *.js, *.html, *.css
-    \ set tabstop=2
-    \ set softtabstop=2
-    \ set shiftwidth=2
+    set tabstop=2
+    set softtabstop=2
+    set shiftwidth=2
 
 "Flagging Unnecessary White spaces
-au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+" au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
 "For syntax hylighting
 let python_highlight_all=1
@@ -57,11 +57,11 @@ endif
 
 	set wrap linebreak nolist
 
-"To copy from one file to other in vim"
-	vnoremap <C-c> "+y
-	map <C-c> "+P
 
-
+"to go to new line while in the middle of the line
+  inoremap <leader><leader> <esc>o
+"
+"
 "split navigations
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>

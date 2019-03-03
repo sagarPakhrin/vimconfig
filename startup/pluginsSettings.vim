@@ -22,6 +22,9 @@ call togglebg#map("<F4>")
 "netrtree ignore
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 
+"let ctrl+p toggle fzf file finder
+nnoremap <C-p> :Files<Cr>
+"
 "settings for python-mode
 map <leader>g :call RopeGotoDefination()<CR>
 let g:pymode_python = 'python3'
